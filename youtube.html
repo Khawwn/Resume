@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Css/youtube.css" />
+    <link rel="stylesheet" href="Css/header.css" />
+    <link rel="stylesheet" href="Css/general.css" />
+    <link rel="stylesheet" href="Css/sidebar.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-straight/css/uicons-solid-straight.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-straight/css/uicons-regular-straight.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="left">
+        <svg
+          class="menu-icon"
+          xmlns="http://www.w3.org/2000/svg"
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+          focusable="false"
+          aria-hidden="true"
+          style="
+            pointer-events: none;
+            display: inherit;
+            width: 100%;
+            height: 100%;
+          "
+        >
+          <path d="M21 6H3V5h18v1zm0 5H3v1h18v-1zm0 6H3v1h18v-1z"></path>
+        </svg>
+        <img class="youtubelogo" src="/logo/YouTube-Logo.wine.svg" />
+      </div>
+      <div class="mid">
+        <input type="text" placeholder="Search..." class="searchbar" />
+        <button class="search-btn">
+          <i class="fi fi-rs-search"></i>
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="mic-btn">
+          <i class="fi fi-ss-circle-microphone"></i>
+        </button>
+      </div>
+      <div class="right">
+        <img class="video-icon" src="/logo/video.svg" />
+        <img class="grid-icon" src="/logo/grid.svg" />
+        <div class="nottif-main">
+          <img class="bell-icon" src="/logo/bell.svg" />
+          <div class="nottif-count">3</div>
+        </div>
+
+        <img class="my-icon" src="/channel-image/channels4_profile.jpg" />
+      </div>
+    </header>
+    <nav class="sidebar-main">
+      <div class="sidebar-link">
+        <img src="/svg/home.svg" />
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="/svg/short.svg" />
+        <div>Shorts</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="/svg/3.svg" />
+        <div>Subscribtion</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="/svg/4.svg" />
+        <div>History</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="/svg/5.svg" />
+        <div>Playlists</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="/svg/6.svg" />
+        <div>Likes</div>
+      </div>
+    </nav>
+    <main>
+      <section class="video-grid">
+        <div class="video-preview">
+          <div class="thumbnail-logo">
+            <img class="thumb" src="thumbnails/hq720.webp" />
+            <div class="video-time">45:30</div>
+          </div>
+          <div class="video-grid-info">
+            <div class="channel-pic">
+              <img
+                src="/channel-image/channels4_profile.jpg"
+                class="channel-image"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Day in the Life of a Japanese Game Programmer
+              </p>
+              <p class="video-author">Tech With Tim</p>
+              <p class="video-stats">34K views &middot; 2 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-logo">
+            <img class="thumb" src="/thumbnails/hq720 (1).webp" />
+          </div>
+          <div class="video-grid-info">
+            <div class="channel-pic">
+              <img
+                src="/channel-image/channels4_profile (1).jpg"
+                alt=""
+                class="channel-image"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Day in the Life of a Japanese Game Programmer
+              </p>
+              <p class="video-author">Tech With Tim</p>
+              <p class="video-stats">34K views &middot; 2 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-logo">
+            <img class="thumb" src="thumbnails/hq720.webp" />
+          </div>
+          <div class="video-grid-info">
+            <div class="channel-pic">
+              <img
+                src="/channel-image/channels4_profile.jpg"
+                class="channel-image"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Day in the Life of a Japanese Game Programmer
+              </p>
+              <p class="video-author">Tech With Tim</p>
+              <p class="video-stats">34K views &middot; 2 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-logo">
+            <img class="thumb" src="/thumbnails/hq720 (1).webp" />
+          </div>
+          <div class="video-grid-info">
+            <div class="channel-pic">
+              <img
+                src="/channel-image/channels4_profile (1).jpg"
+                alt=""
+                class="channel-image"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Day in the Life of a Japanese Game Programmer
+              </p>
+              <p class="video-author">Tech With Tim</p>
+              <p class="video-stats">34K views &middot; 2 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-logo">
+            <img class="thumb" src="thumbnails/hq720.webp" />
+          </div>
+          <div class="video-grid-info">
+            <div class="channel-pic">
+              <img
+                src="/channel-image/channels4_profile.jpg"
+                class="channel-image"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Day in the Life of a Japanese Game Programmer
+              </p>
+              <p class="video-author">Tech With Tim</p>
+              <p class="video-stats">34K views &middot; 2 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-logo">
+            <img class="thumb" src="/thumbnails/hq720 (1).webp" />
+          </div>
+          <div class="video-grid-info">
+            <div class="channel-pic">
+              <img
+                src="/channel-image/channels4_profile (1).jpg"
+                alt=""
+                class="channel-image"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Day in the Life of a Japanese Game Programmer
+              </p>
+              <p class="video-author">Tech With Tim</p>
+              <p class="video-stats">34K views &middot; 2 months ago</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

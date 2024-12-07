@@ -1,0 +1,119 @@
+.searchbar {
+  font-size: 15px;
+  padding-left: 10px;
+  margin-left: 20px;
+  display: flex;
+  height: 30px;
+  border: solid 1px gray;
+  box-shadow: inset 1px 2px 3px rgba(170, 170, 170, 0.438);
+  margin-right: -2px;
+  flex: 1;
+  width: 0;
+}
+.searchbar::placeholder {
+  color: rgba(116, 115, 115, 0.767);
+}
+.header {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  background-color: white;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-color: rgba(148, 148, 148, 0.384);
+  border-style: solid;
+  border-width: 0.5px;
+  border-left: 0px;
+  border-top: 0px;
+  border-right: 0px;
+  z-index: 1000;
+}
+.right {
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 15px;
+  flex-shrink: 0;
+}
+.left {
+  width: 200px;
+  display: flex;
+  align-items: center;
+}
+.mid {
+  flex: 1;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+}
+.menu-icon {
+  height: 20px !important;
+}
+.youtubelogo {
+  height: 87px;
+  margin-right: 20px;
+}
+.search-btn {
+  height: 34px;
+  width: 50px;
+  background-color: rgb(219, 219, 219);
+  border: solid 1px rgb(143, 143, 143);
+  position: relative;
+}
+.search-btn:hover .tooltip{
+  opacity: 1;
+}
+.tooltip{
+  position: absolute;
+  bottom: -33px;
+  right: 1px;
+  background-color: gray;
+  padding: 5px 5px;
+  color: white;
+  font-family: Roboto;
+  opacity: 0;
+  font-size: 12px;
+  transition: opacity 0.15s;
+  pointer-events: none;
+}
+.mic-btn {
+  height: 35px;
+  width: 35px;
+  border-radius: 20px;
+  border: none;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.video-icon {
+  width: 20px;
+}
+.grid-icon {
+  width: 20px;
+}
+.bell-icon {
+  width: 20px;
+}
+.my-icon {
+  width: 30px;
+  border-radius: 20px;
+}
+.nottif-main{
+    position: relative;
+
+}
+.nottif-count{
+    position: absolute;
+    background-color: red;
+    color: white;
+    padding:3px 7px ;
+    top: -8px;
+    right: -8px;
+    border-radius: 400px;
+    font-size: 10px;
+    font-family: Roboto;
+}
